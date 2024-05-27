@@ -53,7 +53,7 @@ class ColorAssetsModel:
                     item['color']['components'] = components
 
                     print(jsonModel)
-                    with open(path  + ".colorset/Contents.json", 'w') as contentInfo:
+                    with open(path + "/Contents.json", 'w') as contentInfo:
                         json.dump(jsonModel, contentInfo)
 
 

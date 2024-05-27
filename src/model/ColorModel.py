@@ -19,6 +19,9 @@ class ColorModel:
 
     def __createPath(self, filePath, colorName, colorPath):
         filePath = filePath + "/" + colorPath.name
+        if colorPath.nextPath is None:
+            filePath += ".colorset"
+
         if not os.path.exists(filePath):
             os.makedirs(filePath)
             if colorPath.nextPath is not None:
