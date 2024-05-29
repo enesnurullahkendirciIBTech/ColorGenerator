@@ -6,7 +6,10 @@ from src.model.ColorAssetsModel import ColorAssetsModel
 
 class ColorModel:
     path = "/Users/volkansonmez/Desktop/test"
-    root = "Colors.xcassets"
+
+    def __init__(self, theme, isDark):
+        self.theme = theme
+        self.isDark = isDark
 
     def createAssets(self, colorName, colorPath):
         self.__createRootFolder()
@@ -18,9 +21,10 @@ class ColorModel:
             self.__addInfoJson(self.__getRootPath())
 
     def __createPath(self, filePath, colorName, colorPath):
-        filePath = filePath + "/" + colorPath.name
         if colorPath.nextPath is None:
-            filePath += ".colorset"
+            filePath = filePath + "/" + self.theme['prefix'] + colorPath.name + ".colorset"
+        else:
+            filePath = filePath + "/" + colorPath.name
 
         if not os.path.exists(filePath):
             os.makedirs(filePath)
@@ -30,10 +34,10 @@ class ColorModel:
         if colorPath.nextPath is not None:
             self.__createPath(filePath, colorName, colorPath.nextPath)
         else:
-            ColorAssetsModel().create(filePath, colorName)
+            ColorAssetsModel().create(filePath, colorName, self.isDark)
 
     def __getRootPath(self):
-        return self.path + "/" + self.root
+        return self.path + "/" + self.theme['name'] + ".xcassets"
 
     def __addInfoJson(self, path):
         info = {
@@ -43,6 +47,7 @@ class ColorModel:
                 }
          }
         filePath = path + "/Contents.json"
-        with open(filePath, 'w') as contents:
-            json.dump(info, contents)
+        if not os.path.exists(filePath):
+            with open(filePath, 'w') as contents:
+                json.dump(info, contents)
 

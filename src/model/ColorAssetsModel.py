@@ -1,18 +1,19 @@
 import json
 
 from src.model.RGBModel import RGBModel
-
 class ColorAssetsModel:
 
-    def create(self, path, color):
+    def create(self, path, color, isDark):
         rgbModel = None
         if "#" in color:
             rgbModel = self.__getColorFromHex(color)
         else:
             rgbModel = self.__getColorFromRgb(color)
 
-        print(color)
-        self.__writeColor(path, rgbModel)
+        if isDark:
+            self.__writeDarkColor(path, rgbModel)
+        else:
+            self.__writeLightColor(path, rgbModel)
 
     def __getColorFromHex(self, hexColor):
         hexColor = hexColor.lstrip('#')
@@ -33,7 +34,7 @@ class ColorAssetsModel:
         alpha = float(values[3])
         return RGBModel(red, green, blue, alpha)
 
-    def __writeColor(self, path, rgbModel):
+    def __writeLightColor(self, path, rgbModel):
         with open('resources/ExampleColor.json') as data:
             jsonModel = json.load(data)
 
@@ -56,6 +57,24 @@ class ColorAssetsModel:
                     with open(path + "/Contents.json", 'w') as contentInfo:
                         json.dump(jsonModel, contentInfo)
 
+    def __writeDarkColor(self, path, rgbModel):
+        filePath = path + "/Contents.json"
+        with open(filePath) as colorData:
+            jsonModel = json.load(colorData)
+            for item in jsonModel["colors"]:
+                if "appearances" in item:
+                    for appearance in item["appearances"]:
+                        if appearance['value'] == "dark":
+                            components = item['color']['components']
+                            components["alpha"] = rgbModel.getAlphaValue()
+                            components["red"] = rgbModel.getRedValue()
+                            components["blue"] = rgbModel.getBlueValue()
+                            components["green"] = rgbModel.getGreenValue()
 
+                            item['color']['components'] = components
+
+                            print(jsonModel)
+                            with open(path + "/Contents.json", 'w') as contentInfo:
+                                json.dump(jsonModel, contentInfo)
 
 
