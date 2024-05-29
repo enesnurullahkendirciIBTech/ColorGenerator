@@ -1,0 +1,820 @@
+
+public var background_selected: UIColor {   
+R.color.daf_background_selected()~ 
+}
+public var background_header-long: UIColor {   
+R.color.daf_background_header-long()~ 
+}
+public var background_header-short: UIColor {   
+R.color.daf_background_header-short()~ 
+}
+public var background_neutral_subtlest: UIColor {   
+R.color.daf_background_neutral_subtlest()~ 
+}
+public var background_neutral_subtler: UIColor {   
+R.color.daf_background_neutral_subtler()~ 
+}
+public var background_neutral_subtle: UIColor {   
+R.color.daf_background_neutral_subtle()~ 
+}
+public var background_neutral_bold: UIColor {   
+R.color.daf_background_neutral_bold()~ 
+}
+public var background_neutral_bolder: UIColor {   
+R.color.daf_background_neutral_bolder()~ 
+}
+public var background_neutral_white: UIColor {   
+R.color.daf_background_neutral_white()~ 
+}
+public var background_button_primary_default: UIColor {   
+R.color.daf_background_button_primary_default()~ 
+}
+public var background_button_primary_disabled: UIColor {   
+R.color.daf_background_button_primary_disabled()~ 
+}
+public var background_button_secondary_default: UIColor {   
+R.color.daf_background_button_secondary_default()~ 
+}
+public var background_button_secondary_disabled: UIColor {   
+R.color.daf_background_button_secondary_disabled()~ 
+}
+public var background_button_decorative_default: UIColor {   
+R.color.daf_background_button_decorative_default()~ 
+}
+public var background_button_decorative_disabled: UIColor {   
+R.color.daf_background_button_decorative_disabled()~ 
+}
+public var background_brand_subtlest: UIColor {   
+R.color.daf_background_brand_subtlest()~ 
+}
+public var background_brand_subtler: UIColor {   
+R.color.daf_background_brand_subtler()~ 
+}
+public var background_brand_bold: UIColor {   
+R.color.daf_background_brand_bold()~ 
+}
+public var background_information_warning-bold: UIColor {   
+R.color.daf_background_information_warning-bold()~ 
+}
+public var background_information_warning-subtle: UIColor {   
+R.color.daf_background_information_warning-subtle()~ 
+}
+public var background_information_caution-bold: UIColor {   
+R.color.daf_background_information_caution-bold()~ 
+}
+public var background_information_caution-subtle: UIColor {   
+R.color.daf_background_information_caution-subtle()~ 
+}
+public var background_information_success-bold: UIColor {   
+R.color.daf_background_information_success-bold()~ 
+}
+public var background_information_success-subtle: UIColor {   
+R.color.daf_background_information_success-subtle()~ 
+}
+public var background_information_regular-bold: UIColor {   
+R.color.daf_background_information_regular-bold()~ 
+}
+public var background_information_regular-subtle: UIColor {   
+R.color.daf_background_information_regular-subtle()~ 
+}
+public var background_information_subtle: UIColor {   
+R.color.daf_background_information_subtle()~ 
+}
+public var background_inputs_textbox: UIColor {   
+R.color.daf_background_inputs_textbox()~ 
+}
+public var background_inputs_textbox-selected: UIColor {   
+R.color.daf_background_inputs_textbox-selected()~ 
+}
+public var background_inputs_checkbox: UIColor {   
+R.color.daf_background_inputs_checkbox()~ 
+}
+public var background_inputs_checkbox-selected: UIColor {   
+R.color.daf_background_inputs_checkbox-selected()~ 
+}
+public var background_inputs_radiobutton: UIColor {   
+R.color.daf_background_inputs_radiobutton()~ 
+}
+public var background_inputs_toggleBaseOff: UIColor {   
+R.color.daf_background_inputs_toggleBaseOff()~ 
+}
+public var background_inputs_toggleBaseOn: UIColor {   
+R.color.daf_background_inputs_toggleBaseOn()~ 
+}
+public var background_inputs_toggleHandle: UIColor {   
+R.color.daf_background_inputs_toggleHandle()~ 
+}
+public var background_inputs_radiobutton-selected: UIColor {   
+R.color.daf_background_inputs_radiobutton-selected()~ 
+}
+public var background_decorative_blue_subtlest: UIColor {   
+R.color.daf_background_decorative_blue_subtlest()~ 
+}
+public var background_decorative_blue_subtler: UIColor {   
+R.color.daf_background_decorative_blue_subtler()~ 
+}
+public var background_decorative_blue_subtle: UIColor {   
+R.color.daf_background_decorative_blue_subtle()~ 
+}
+public var background_decorative_blue_bolder: UIColor {   
+R.color.daf_background_decorative_blue_bolder()~ 
+}
+public var background_decorative_blue_alpha: UIColor {   
+R.color.daf_background_decorative_blue_alpha()~ 
+}
+public var background_decorative_blue_alpha-bolder: UIColor {   
+R.color.daf_background_decorative_blue_alpha-bolder()~ 
+}
+public var background_decorative_green_subtlest: UIColor {   
+R.color.daf_background_decorative_green_subtlest()~ 
+}
+public var background_decorative_green_subtler: UIColor {   
+R.color.daf_background_decorative_green_subtler()~ 
+}
+public var background_decorative_green_subtle: UIColor {   
+R.color.daf_background_decorative_green_subtle()~ 
+}
+public var background_decorative_green_bolder: UIColor {   
+R.color.daf_background_decorative_green_bolder()~ 
+}
+public var background_decorative_green_alpha: UIColor {   
+R.color.daf_background_decorative_green_alpha()~ 
+}
+public var background_decorative_green_alpha-bolder: UIColor {   
+R.color.daf_background_decorative_green_alpha-bolder()~ 
+}
+public var background_decorative_grey_subtlest: UIColor {   
+R.color.daf_background_decorative_grey_subtlest()~ 
+}
+public var background_decorative_grey_subtler: UIColor {   
+R.color.daf_background_decorative_grey_subtler()~ 
+}
+public var background_decorative_grey_subtle: UIColor {   
+R.color.daf_background_decorative_grey_subtle()~ 
+}
+public var background_decorative_grey_bolder: UIColor {   
+R.color.daf_background_decorative_grey_bolder()~ 
+}
+public var background_decorative_lime_subtlest: UIColor {   
+R.color.daf_background_decorative_lime_subtlest()~ 
+}
+public var background_decorative_lime_subtler: UIColor {   
+R.color.daf_background_decorative_lime_subtler()~ 
+}
+public var background_decorative_lime_subtle: UIColor {   
+R.color.daf_background_decorative_lime_subtle()~ 
+}
+public var background_decorative_lime_bolder: UIColor {   
+R.color.daf_background_decorative_lime_bolder()~ 
+}
+public var background_decorative_lime_alpha: UIColor {   
+R.color.daf_background_decorative_lime_alpha()~ 
+}
+public var background_decorative_lime_alpha-bolder: UIColor {   
+R.color.daf_background_decorative_lime_alpha-bolder()~ 
+}
+public var background_decorative_fuchsia_subtlest: UIColor {   
+R.color.daf_background_decorative_fuchsia_subtlest()~ 
+}
+public var background_decorative_fuchsia_subtler: UIColor {   
+R.color.daf_background_decorative_fuchsia_subtler()~ 
+}
+public var background_decorative_fuchsia_subtle: UIColor {   
+R.color.daf_background_decorative_fuchsia_subtle()~ 
+}
+public var background_decorative_fuchsia_bolder: UIColor {   
+R.color.daf_background_decorative_fuchsia_bolder()~ 
+}
+public var background_decorative_fuchsia_alpha: UIColor {   
+R.color.daf_background_decorative_fuchsia_alpha()~ 
+}
+public var background_decorative_fuchsia_alpha-bolder: UIColor {   
+R.color.daf_background_decorative_fuchsia_alpha-bolder()~ 
+}
+public var background_decorative_orange_subtlest: UIColor {   
+R.color.daf_background_decorative_orange_subtlest()~ 
+}
+public var background_decorative_orange_subtler: UIColor {   
+R.color.daf_background_decorative_orange_subtler()~ 
+}
+public var background_decorative_orange_subtle: UIColor {   
+R.color.daf_background_decorative_orange_subtle()~ 
+}
+public var background_decorative_orange_bolder: UIColor {   
+R.color.daf_background_decorative_orange_bolder()~ 
+}
+public var background_decorative_orange_alpha: UIColor {   
+R.color.daf_background_decorative_orange_alpha()~ 
+}
+public var background_decorative_orange_alpha-bolder: UIColor {   
+R.color.daf_background_decorative_orange_alpha-bolder()~ 
+}
+public var background_decorative_pink_subtlest: UIColor {   
+R.color.daf_background_decorative_pink_subtlest()~ 
+}
+public var background_decorative_pink_subtler: UIColor {   
+R.color.daf_background_decorative_pink_subtler()~ 
+}
+public var background_decorative_pink_subtle: UIColor {   
+R.color.daf_background_decorative_pink_subtle()~ 
+}
+public var background_decorative_pink_bolder: UIColor {   
+R.color.daf_background_decorative_pink_bolder()~ 
+}
+public var background_decorative_pink_alpha: UIColor {   
+R.color.daf_background_decorative_pink_alpha()~ 
+}
+public var background_decorative_pink_alpha-bolder: UIColor {   
+R.color.daf_background_decorative_pink_alpha-bolder()~ 
+}
+public var background_decorative_purple_subtlest: UIColor {   
+R.color.daf_background_decorative_purple_subtlest()~ 
+}
+public var background_decorative_purple_subtler: UIColor {   
+R.color.daf_background_decorative_purple_subtler()~ 
+}
+public var background_decorative_purple_subtle: UIColor {   
+R.color.daf_background_decorative_purple_subtle()~ 
+}
+public var background_decorative_purple_bolder: UIColor {   
+R.color.daf_background_decorative_purple_bolder()~ 
+}
+public var background_decorative_purple_alpha: UIColor {   
+R.color.daf_background_decorative_purple_alpha()~ 
+}
+public var background_decorative_purple_alpha-bolder: UIColor {   
+R.color.daf_background_decorative_purple_alpha-bolder()~ 
+}
+public var background_decorative_red_subtlest: UIColor {   
+R.color.daf_background_decorative_red_subtlest()~ 
+}
+public var background_decorative_red_subtler: UIColor {   
+R.color.daf_background_decorative_red_subtler()~ 
+}
+public var background_decorative_red_subtle: UIColor {   
+R.color.daf_background_decorative_red_subtle()~ 
+}
+public var background_decorative_red_bolder: UIColor {   
+R.color.daf_background_decorative_red_bolder()~ 
+}
+public var background_decorative_red_alpha: UIColor {   
+R.color.daf_background_decorative_red_alpha()~ 
+}
+public var background_decorative_red_alpha-bolder: UIColor {   
+R.color.daf_background_decorative_red_alpha-bolder()~ 
+}
+public var background_decorative_ruby_subtlest: UIColor {   
+R.color.daf_background_decorative_ruby_subtlest()~ 
+}
+public var background_decorative_ruby_subtler: UIColor {   
+R.color.daf_background_decorative_ruby_subtler()~ 
+}
+public var background_decorative_ruby_subtle: UIColor {   
+R.color.daf_background_decorative_ruby_subtle()~ 
+}
+public var background_decorative_ruby_bolder: UIColor {   
+R.color.daf_background_decorative_ruby_bolder()~ 
+}
+public var background_decorative_ruby_alpha: UIColor {   
+R.color.daf_background_decorative_ruby_alpha()~ 
+}
+public var background_decorative_ruby_alpha-bolder: UIColor {   
+R.color.daf_background_decorative_ruby_alpha-bolder()~ 
+}
+public var background_decorative_teal_subtlest: UIColor {   
+R.color.daf_background_decorative_teal_subtlest()~ 
+}
+public var background_decorative_teal_subtler: UIColor {   
+R.color.daf_background_decorative_teal_subtler()~ 
+}
+public var background_decorative_teal_subtle: UIColor {   
+R.color.daf_background_decorative_teal_subtle()~ 
+}
+public var background_decorative_teal_bolder: UIColor {   
+R.color.daf_background_decorative_teal_bolder()~ 
+}
+public var background_decorative_teal_alpha: UIColor {   
+R.color.daf_background_decorative_teal_alpha()~ 
+}
+public var background_decorative_teal_alpha-bolder: UIColor {   
+R.color.daf_background_decorative_teal_alpha-bolder()~ 
+}
+public var background_decorative_yellow_subtlest: UIColor {   
+R.color.daf_background_decorative_yellow_subtlest()~ 
+}
+public var background_decorative_yellow_subtler: UIColor {   
+R.color.daf_background_decorative_yellow_subtler()~ 
+}
+public var background_decorative_yellow_subtle: UIColor {   
+R.color.daf_background_decorative_yellow_subtle()~ 
+}
+public var background_decorative_yellow_bolder: UIColor {   
+R.color.daf_background_decorative_yellow_bolder()~ 
+}
+public var background_decorative_yellow_alpha: UIColor {   
+R.color.daf_background_decorative_yellow_alpha()~ 
+}
+public var background_decorative_yellow_alpha-bolder: UIColor {   
+R.color.daf_background_decorative_yellow_alpha-bolder()~ 
+}
+public var border_brand_subtlest: UIColor {   
+R.color.daf_border_brand_subtlest()~ 
+}
+public var border_brand_subtler: UIColor {   
+R.color.daf_border_brand_subtler()~ 
+}
+public var border_brand_subtle: UIColor {   
+R.color.daf_border_brand_subtle()~ 
+}
+public var border_brand_bold: UIColor {   
+R.color.daf_border_brand_bold()~ 
+}
+public var border_inputs_default: UIColor {   
+R.color.daf_border_inputs_default()~ 
+}
+public var border_inputs_selected: UIColor {   
+R.color.daf_border_inputs_selected()~ 
+}
+public var border_neutral_subtler: UIColor {   
+R.color.daf_border_neutral_subtler()~ 
+}
+public var border_neutral_subtle: UIColor {   
+R.color.daf_border_neutral_subtle()~ 
+}
+public var border_neutral_bolder: UIColor {   
+R.color.daf_border_neutral_bolder()~ 
+}
+public var border_decorative_blue_subtlest: UIColor {   
+R.color.daf_border_decorative_blue_subtlest()~ 
+}
+public var border_decorative_blue_subtler: UIColor {   
+R.color.daf_border_decorative_blue_subtler()~ 
+}
+public var border_decorative_blue_subtle: UIColor {   
+R.color.daf_border_decorative_blue_subtle()~ 
+}
+public var border_decorative_blue_bolder: UIColor {   
+R.color.daf_border_decorative_blue_bolder()~ 
+}
+public var border_decorative_blue_alpha: UIColor {   
+R.color.daf_border_decorative_blue_alpha()~ 
+}
+public var border_decorative_fuchsia_subtlest: UIColor {   
+R.color.daf_border_decorative_fuchsia_subtlest()~ 
+}
+public var border_decorative_fuchsia_subtler: UIColor {   
+R.color.daf_border_decorative_fuchsia_subtler()~ 
+}
+public var border_decorative_fuchsia_subtle: UIColor {   
+R.color.daf_border_decorative_fuchsia_subtle()~ 
+}
+public var border_decorative_fuchsia_bolder: UIColor {   
+R.color.daf_border_decorative_fuchsia_bolder()~ 
+}
+public var border_decorative_fuchsia_alpha: UIColor {   
+R.color.daf_border_decorative_fuchsia_alpha()~ 
+}
+public var border_decorative_green_subtlest: UIColor {   
+R.color.daf_border_decorative_green_subtlest()~ 
+}
+public var border_decorative_green_subtler: UIColor {   
+R.color.daf_border_decorative_green_subtler()~ 
+}
+public var border_decorative_green_subtle: UIColor {   
+R.color.daf_border_decorative_green_subtle()~ 
+}
+public var border_decorative_green_bolder: UIColor {   
+R.color.daf_border_decorative_green_bolder()~ 
+}
+public var border_decorative_green_alpha: UIColor {   
+R.color.daf_border_decorative_green_alpha()~ 
+}
+public var border_decorative_grey_subtlest: UIColor {   
+R.color.daf_border_decorative_grey_subtlest()~ 
+}
+public var border_decorative_grey_subtler: UIColor {   
+R.color.daf_border_decorative_grey_subtler()~ 
+}
+public var border_decorative_grey_subtle: UIColor {   
+R.color.daf_border_decorative_grey_subtle()~ 
+}
+public var border_decorative_grey_bolder: UIColor {   
+R.color.daf_border_decorative_grey_bolder()~ 
+}
+public var border_decorative_lime_subtlest: UIColor {   
+R.color.daf_border_decorative_lime_subtlest()~ 
+}
+public var border_decorative_lime_subtler: UIColor {   
+R.color.daf_border_decorative_lime_subtler()~ 
+}
+public var border_decorative_lime_subtle: UIColor {   
+R.color.daf_border_decorative_lime_subtle()~ 
+}
+public var border_decorative_lime_regular: UIColor {   
+R.color.daf_border_decorative_lime_regular()~ 
+}
+public var border_decorative_lime_alpha: UIColor {   
+R.color.daf_border_decorative_lime_alpha()~ 
+}
+public var border_decorative_orange_subtlest: UIColor {   
+R.color.daf_border_decorative_orange_subtlest()~ 
+}
+public var border_decorative_orange_subtler: UIColor {   
+R.color.daf_border_decorative_orange_subtler()~ 
+}
+public var border_decorative_orange_subtle: UIColor {   
+R.color.daf_border_decorative_orange_subtle()~ 
+}
+public var border_decorative_orange_bolder: UIColor {   
+R.color.daf_border_decorative_orange_bolder()~ 
+}
+public var border_decorative_orange_alpha: UIColor {   
+R.color.daf_border_decorative_orange_alpha()~ 
+}
+public var border_decorative_pink_subtlest: UIColor {   
+R.color.daf_border_decorative_pink_subtlest()~ 
+}
+public var border_decorative_pink_subtler: UIColor {   
+R.color.daf_border_decorative_pink_subtler()~ 
+}
+public var border_decorative_pink_subtle: UIColor {   
+R.color.daf_border_decorative_pink_subtle()~ 
+}
+public var border_decorative_pink_bolder: UIColor {   
+R.color.daf_border_decorative_pink_bolder()~ 
+}
+public var border_decorative_pink_alpha: UIColor {   
+R.color.daf_border_decorative_pink_alpha()~ 
+}
+public var border_decorative_purple_subtlest: UIColor {   
+R.color.daf_border_decorative_purple_subtlest()~ 
+}
+public var border_decorative_purple_subtler: UIColor {   
+R.color.daf_border_decorative_purple_subtler()~ 
+}
+public var border_decorative_purple_subtle: UIColor {   
+R.color.daf_border_decorative_purple_subtle()~ 
+}
+public var border_decorative_purple_bolder: UIColor {   
+R.color.daf_border_decorative_purple_bolder()~ 
+}
+public var border_decorative_purple_alpha: UIColor {   
+R.color.daf_border_decorative_purple_alpha()~ 
+}
+public var border_decorative_red_subtlest: UIColor {   
+R.color.daf_border_decorative_red_subtlest()~ 
+}
+public var border_decorative_red_subtler: UIColor {   
+R.color.daf_border_decorative_red_subtler()~ 
+}
+public var border_decorative_red_subtle: UIColor {   
+R.color.daf_border_decorative_red_subtle()~ 
+}
+public var border_decorative_red_bolder: UIColor {   
+R.color.daf_border_decorative_red_bolder()~ 
+}
+public var border_decorative_red_alpha: UIColor {   
+R.color.daf_border_decorative_red_alpha()~ 
+}
+public var border_decorative_ruby_subtlest: UIColor {   
+R.color.daf_border_decorative_ruby_subtlest()~ 
+}
+public var border_decorative_ruby_subtler: UIColor {   
+R.color.daf_border_decorative_ruby_subtler()~ 
+}
+public var border_decorative_ruby_subtle: UIColor {   
+R.color.daf_border_decorative_ruby_subtle()~ 
+}
+public var border_decorative_ruby_bolder: UIColor {   
+R.color.daf_border_decorative_ruby_bolder()~ 
+}
+public var border_decorative_ruby_alpha: UIColor {   
+R.color.daf_border_decorative_ruby_alpha()~ 
+}
+public var border_decorative_teal_subtlest: UIColor {   
+R.color.daf_border_decorative_teal_subtlest()~ 
+}
+public var border_decorative_teal_subtler: UIColor {   
+R.color.daf_border_decorative_teal_subtler()~ 
+}
+public var border_decorative_teal_subtle: UIColor {   
+R.color.daf_border_decorative_teal_subtle()~ 
+}
+public var border_decorative_teal_bolder: UIColor {   
+R.color.daf_border_decorative_teal_bolder()~ 
+}
+public var border_decorative_teal_alpha: UIColor {   
+R.color.daf_border_decorative_teal_alpha()~ 
+}
+public var border_decorative_yellow_subtlest: UIColor {   
+R.color.daf_border_decorative_yellow_subtlest()~ 
+}
+public var border_decorative_yellow_subtler: UIColor {   
+R.color.daf_border_decorative_yellow_subtler()~ 
+}
+public var border_decorative_yellow_subtle: UIColor {   
+R.color.daf_border_decorative_yellow_subtle()~ 
+}
+public var border_decorative_yellow_bolder: UIColor {   
+R.color.daf_border_decorative_yellow_bolder()~ 
+}
+public var border_decorative_yellow_alpha: UIColor {   
+R.color.daf_border_decorative_yellow_alpha()~ 
+}
+public var text_main: UIColor {   
+R.color.daf_text_main()~ 
+}
+public var text_subtle: UIColor {   
+R.color.daf_text_subtle()~ 
+}
+public var text_subtler: UIColor {   
+R.color.daf_text_subtler()~ 
+}
+public var text_subtlest: UIColor {   
+R.color.daf_text_subtlest()~ 
+}
+public var text_disabled: UIColor {   
+R.color.daf_text_disabled()~ 
+}
+public var text_on-bold: UIColor {   
+R.color.daf_text_on-bold()~ 
+}
+public var text_danger: UIColor {   
+R.color.daf_text_danger()~ 
+}
+public var text_link: UIColor {   
+R.color.daf_text_link()~ 
+}
+public var text_brand: UIColor {   
+R.color.daf_text_brand()~ 
+}
+public var text_on-brand: UIColor {   
+R.color.daf_text_on-brand()~ 
+}
+public var text_on-primary: UIColor {   
+R.color.daf_text_on-primary()~ 
+}
+public var text_ghost: UIColor {   
+R.color.daf_text_ghost()~ 
+}
+public var text_information_warning: UIColor {   
+R.color.daf_text_information_warning()~ 
+}
+public var text_information_caution: UIColor {   
+R.color.daf_text_information_caution()~ 
+}
+public var text_information_success: UIColor {   
+R.color.daf_text_information_success()~ 
+}
+public var text_information_regular: UIColor {   
+R.color.daf_text_information_regular()~ 
+}
+public var text_information_subtle: UIColor {   
+R.color.daf_text_information_subtle()~ 
+}
+public var text_decorative_blue_regular: UIColor {   
+R.color.daf_text_decorative_blue_regular()~ 
+}
+public var text_decorative_blue_bolder: UIColor {   
+R.color.daf_text_decorative_blue_bolder()~ 
+}
+public var text_decorative_blue_on-bold: UIColor {   
+R.color.daf_text_decorative_blue_on-bold()~ 
+}
+public var text_decorative_fuchsia_regular: UIColor {   
+R.color.daf_text_decorative_fuchsia_regular()~ 
+}
+public var text_decorative_fuchsia_bolder: UIColor {   
+R.color.daf_text_decorative_fuchsia_bolder()~ 
+}
+public var text_decorative_fuchsia_on-bold: UIColor {   
+R.color.daf_text_decorative_fuchsia_on-bold()~ 
+}
+public var text_decorative_green_regular: UIColor {   
+R.color.daf_text_decorative_green_regular()~ 
+}
+public var text_decorative_green_bolder: UIColor {   
+R.color.daf_text_decorative_green_bolder()~ 
+}
+public var text_decorative_green_on-bold: UIColor {   
+R.color.daf_text_decorative_green_on-bold()~ 
+}
+public var text_decorative_lime_regular: UIColor {   
+R.color.daf_text_decorative_lime_regular()~ 
+}
+public var text_decorative_lime_bolder: UIColor {   
+R.color.daf_text_decorative_lime_bolder()~ 
+}
+public var text_decorative_lime_on-bold: UIColor {   
+R.color.daf_text_decorative_lime_on-bold()~ 
+}
+public var text_decorative_magenta_regular: UIColor {   
+R.color.daf_text_decorative_magenta_regular()~ 
+}
+public var text_decorative_magenta_bolder: UIColor {   
+R.color.daf_text_decorative_magenta_bolder()~ 
+}
+public var text_decorative_magenta_on-bold: UIColor {   
+R.color.daf_text_decorative_magenta_on-bold()~ 
+}
+public var text_decorative_orange_regular: UIColor {   
+R.color.daf_text_decorative_orange_regular()~ 
+}
+public var text_decorative_orange_bolder: UIColor {   
+R.color.daf_text_decorative_orange_bolder()~ 
+}
+public var text_decorative_orange_on-bold: UIColor {   
+R.color.daf_text_decorative_orange_on-bold()~ 
+}
+public var text_decorative_pink_regular: UIColor {   
+R.color.daf_text_decorative_pink_regular()~ 
+}
+public var text_decorative_pink_bolder: UIColor {   
+R.color.daf_text_decorative_pink_bolder()~ 
+}
+public var text_decorative_pink_on-bold: UIColor {   
+R.color.daf_text_decorative_pink_on-bold()~ 
+}
+public var text_decorative_purple_regular: UIColor {   
+R.color.daf_text_decorative_purple_regular()~ 
+}
+public var text_decorative_purple_bolder: UIColor {   
+R.color.daf_text_decorative_purple_bolder()~ 
+}
+public var text_decorative_purple_on-bold: UIColor {   
+R.color.daf_text_decorative_purple_on-bold()~ 
+}
+public var text_decorative_red_regular: UIColor {   
+R.color.daf_text_decorative_red_regular()~ 
+}
+public var text_decorative_red_bolder: UIColor {   
+R.color.daf_text_decorative_red_bolder()~ 
+}
+public var text_decorative_red_on-bold: UIColor {   
+R.color.daf_text_decorative_red_on-bold()~ 
+}
+public var text_decorative_ruby_regular: UIColor {   
+R.color.daf_text_decorative_ruby_regular()~ 
+}
+public var text_decorative_ruby_bolder: UIColor {   
+R.color.daf_text_decorative_ruby_bolder()~ 
+}
+public var text_decorative_ruby_on-bold: UIColor {   
+R.color.daf_text_decorative_ruby_on-bold()~ 
+}
+public var text_decorative_teal_regular: UIColor {   
+R.color.daf_text_decorative_teal_regular()~ 
+}
+public var text_decorative_teal_bolder: UIColor {   
+R.color.daf_text_decorative_teal_bolder()~ 
+}
+public var text_decorative_teal_on-bold: UIColor {   
+R.color.daf_text_decorative_teal_on-bold()~ 
+}
+public var text_decorative_yellow_regular: UIColor {   
+R.color.daf_text_decorative_yellow_regular()~ 
+}
+public var text_decorative_yellow_bolder: UIColor {   
+R.color.daf_text_decorative_yellow_bolder()~ 
+}
+public var text_decorative_yellow_on-bold: UIColor {   
+R.color.daf_text_decorative_yellow_on-bold()~ 
+}
+public var icon_subtle: UIColor {   
+R.color.daf_icon_subtle()~ 
+}
+public var icon_subtler: UIColor {   
+R.color.daf_icon_subtler()~ 
+}
+public var icon_subtlest: UIColor {   
+R.color.daf_icon_subtlest()~ 
+}
+public var icon_bold: UIColor {   
+R.color.daf_icon_bold()~ 
+}
+public var icon_main: UIColor {   
+R.color.daf_icon_main()~ 
+}
+public var icon_on-brand: UIColor {   
+R.color.daf_icon_on-brand()~ 
+}
+public var icon_on-bold: UIColor {   
+R.color.daf_icon_on-bold()~ 
+}
+public var icon_disabled: UIColor {   
+R.color.daf_icon_disabled()~ 
+}
+public var icon_brand: UIColor {   
+R.color.daf_icon_brand()~ 
+}
+public var icon_information_warning: UIColor {   
+R.color.daf_icon_information_warning()~ 
+}
+public var icon_information_caution: UIColor {   
+R.color.daf_icon_information_caution()~ 
+}
+public var icon_information_success: UIColor {   
+R.color.daf_icon_information_success()~ 
+}
+public var icon_information_regular: UIColor {   
+R.color.daf_icon_information_regular()~ 
+}
+public var icon_information_subtle: UIColor {   
+R.color.daf_icon_information_subtle()~ 
+}
+public var icon_decorative_blue_subtle: UIColor {   
+R.color.daf_icon_decorative_blue_subtle()~ 
+}
+public var icon_decorative_blue_bold: UIColor {   
+R.color.daf_icon_decorative_blue_bold()~ 
+}
+public var icon_decorative_fuchsia_subtle: UIColor {   
+R.color.daf_icon_decorative_fuchsia_subtle()~ 
+}
+public var icon_decorative_fuchsia_bold: UIColor {   
+R.color.daf_icon_decorative_fuchsia_bold()~ 
+}
+public var icon_decorative_green_subtle: UIColor {   
+R.color.daf_icon_decorative_green_subtle()~ 
+}
+public var icon_decorative_green_bold: UIColor {   
+R.color.daf_icon_decorative_green_bold()~ 
+}
+public var icon_decorative_lime_subtle: UIColor {   
+R.color.daf_icon_decorative_lime_subtle()~ 
+}
+public var icon_decorative_lime_bold: UIColor {   
+R.color.daf_icon_decorative_lime_bold()~ 
+}
+public var icon_decorative_magenta_subtle: UIColor {   
+R.color.daf_icon_decorative_magenta_subtle()~ 
+}
+public var icon_decorative_magenta_bold: UIColor {   
+R.color.daf_icon_decorative_magenta_bold()~ 
+}
+public var icon_decorative_orange_subtle: UIColor {   
+R.color.daf_icon_decorative_orange_subtle()~ 
+}
+public var icon_decorative_orange_bold: UIColor {   
+R.color.daf_icon_decorative_orange_bold()~ 
+}
+public var icon_decorative_pink_subtle: UIColor {   
+R.color.daf_icon_decorative_pink_subtle()~ 
+}
+public var icon_decorative_pink_bold: UIColor {   
+R.color.daf_icon_decorative_pink_bold()~ 
+}
+public var icon_decorative_purple_subtle: UIColor {   
+R.color.daf_icon_decorative_purple_subtle()~ 
+}
+public var icon_decorative_purple_bold: UIColor {   
+R.color.daf_icon_decorative_purple_bold()~ 
+}
+public var icon_decorative_red_bold: UIColor {   
+R.color.daf_icon_decorative_red_bold()~ 
+}
+public var icon_decorative_red_subtle: UIColor {   
+R.color.daf_icon_decorative_red_subtle()~ 
+}
+public var icon_decorative_ruby_subtle: UIColor {   
+R.color.daf_icon_decorative_ruby_subtle()~ 
+}
+public var icon_decorative_ruby_bold: UIColor {   
+R.color.daf_icon_decorative_ruby_bold()~ 
+}
+public var icon_decorative_sapphire_subtle: UIColor {   
+R.color.daf_icon_decorative_sapphire_subtle()~ 
+}
+public var icon_decorative_sapphire_bold: UIColor {   
+R.color.daf_icon_decorative_sapphire_bold()~ 
+}
+public var icon_decorative_teal_subtle: UIColor {   
+R.color.daf_icon_decorative_teal_subtle()~ 
+}
+public var icon_decorative_teal_bold: UIColor {   
+R.color.daf_icon_decorative_teal_bold()~ 
+}
+public var icon_decorative_yellow_subtle: UIColor {   
+R.color.daf_icon_decorative_yellow_subtle()~ 
+}
+public var icon_decorative_yellow_bold: UIColor {   
+R.color.daf_icon_decorative_yellow_bold()~ 
+}
+public var surface_base: UIColor {   
+R.color.daf_surface_base()~ 
+}
+public var surface_groupedbase: UIColor {   
+R.color.daf_surface_groupedbase()~ 
+}
+public var surface_level1: UIColor {   
+R.color.daf_surface_level1()~ 
+}
+public var surface_level2: UIColor {   
+R.color.daf_surface_level2()~ 
+}
+public var surface_level3: UIColor {   
+R.color.daf_surface_level3()~ 
+}
+public var surface_level4: UIColor {   
+R.color.daf_surface_level4()~ 
+}

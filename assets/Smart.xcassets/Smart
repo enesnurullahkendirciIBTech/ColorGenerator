@@ -1,0 +1,820 @@
+
+public var smart_background_selected.colorset: UIColor {   
+R.color.smart_background_selected()~ 
+}
+public var smart_background_header-long.colorset: UIColor {   
+R.color.smart_background_header-long()~ 
+}
+public var smart_background_header-short.colorset: UIColor {   
+R.color.smart_background_header-short()~ 
+}
+public var smart_background_neutral_subtlest.colorset: UIColor {   
+R.color.smart_background_neutral_subtlest()~ 
+}
+public var smart_background_neutral_subtler.colorset: UIColor {   
+R.color.smart_background_neutral_subtler()~ 
+}
+public var smart_background_neutral_subtle.colorset: UIColor {   
+R.color.smart_background_neutral_subtle()~ 
+}
+public var smart_background_neutral_bold.colorset: UIColor {   
+R.color.smart_background_neutral_bold()~ 
+}
+public var smart_background_neutral_bolder.colorset: UIColor {   
+R.color.smart_background_neutral_bolder()~ 
+}
+public var smart_background_neutral_white.colorset: UIColor {   
+R.color.smart_background_neutral_white()~ 
+}
+public var smart_background_button_primary_default.colorset: UIColor {   
+R.color.smart_background_button_primary_default()~ 
+}
+public var smart_background_button_primary_disabled.colorset: UIColor {   
+R.color.smart_background_button_primary_disabled()~ 
+}
+public var smart_background_button_secondary_default.colorset: UIColor {   
+R.color.smart_background_button_secondary_default()~ 
+}
+public var smart_background_button_secondary_disabled.colorset: UIColor {   
+R.color.smart_background_button_secondary_disabled()~ 
+}
+public var smart_background_button_decorative_default.colorset: UIColor {   
+R.color.smart_background_button_decorative_default()~ 
+}
+public var smart_background_button_decorative_disabled.colorset: UIColor {   
+R.color.smart_background_button_decorative_disabled()~ 
+}
+public var smart_background_brand_subtlest.colorset: UIColor {   
+R.color.smart_background_brand_subtlest()~ 
+}
+public var smart_background_brand_subtler.colorset: UIColor {   
+R.color.smart_background_brand_subtler()~ 
+}
+public var smart_background_brand_bold.colorset: UIColor {   
+R.color.smart_background_brand_bold()~ 
+}
+public var smart_background_information_warning-bold.colorset: UIColor {   
+R.color.smart_background_information_warning-bold()~ 
+}
+public var smart_background_information_warning-subtle.colorset: UIColor {   
+R.color.smart_background_information_warning-subtle()~ 
+}
+public var smart_background_information_caution-bold.colorset: UIColor {   
+R.color.smart_background_information_caution-bold()~ 
+}
+public var smart_background_information_caution-subtle.colorset: UIColor {   
+R.color.smart_background_information_caution-subtle()~ 
+}
+public var smart_background_information_success-bold.colorset: UIColor {   
+R.color.smart_background_information_success-bold()~ 
+}
+public var smart_background_information_success-subtle.colorset: UIColor {   
+R.color.smart_background_information_success-subtle()~ 
+}
+public var smart_background_information_regular-bold.colorset: UIColor {   
+R.color.smart_background_information_regular-bold()~ 
+}
+public var smart_background_information_regular-subtle.colorset: UIColor {   
+R.color.smart_background_information_regular-subtle()~ 
+}
+public var smart_background_information_subtle.colorset: UIColor {   
+R.color.smart_background_information_subtle()~ 
+}
+public var smart_background_inputs_textbox.colorset: UIColor {   
+R.color.smart_background_inputs_textbox()~ 
+}
+public var smart_background_inputs_textbox-selected.colorset: UIColor {   
+R.color.smart_background_inputs_textbox-selected()~ 
+}
+public var smart_background_inputs_checkbox.colorset: UIColor {   
+R.color.smart_background_inputs_checkbox()~ 
+}
+public var smart_background_inputs_checkbox-selected.colorset: UIColor {   
+R.color.smart_background_inputs_checkbox-selected()~ 
+}
+public var smart_background_inputs_radiobutton.colorset: UIColor {   
+R.color.smart_background_inputs_radiobutton()~ 
+}
+public var smart_background_inputs_toggleBaseOff.colorset: UIColor {   
+R.color.smart_background_inputs_toggleBaseOff()~ 
+}
+public var smart_background_inputs_toggleBaseOn.colorset: UIColor {   
+R.color.smart_background_inputs_toggleBaseOn()~ 
+}
+public var smart_background_inputs_toggleHandle.colorset: UIColor {   
+R.color.smart_background_inputs_toggleHandle()~ 
+}
+public var smart_background_inputs_radiobutton-selected.colorset: UIColor {   
+R.color.smart_background_inputs_radiobutton-selected()~ 
+}
+public var smart_background_decorative_blue_subtlest.colorset: UIColor {   
+R.color.smart_background_decorative_blue_subtlest()~ 
+}
+public var smart_background_decorative_blue_subtler.colorset: UIColor {   
+R.color.smart_background_decorative_blue_subtler()~ 
+}
+public var smart_background_decorative_blue_subtle.colorset: UIColor {   
+R.color.smart_background_decorative_blue_subtle()~ 
+}
+public var smart_background_decorative_blue_bolder.colorset: UIColor {   
+R.color.smart_background_decorative_blue_bolder()~ 
+}
+public var smart_background_decorative_blue_alpha.colorset: UIColor {   
+R.color.smart_background_decorative_blue_alpha()~ 
+}
+public var smart_background_decorative_blue_alpha-bolder.colorset: UIColor {   
+R.color.smart_background_decorative_blue_alpha-bolder()~ 
+}
+public var smart_background_decorative_green_subtlest.colorset: UIColor {   
+R.color.smart_background_decorative_green_subtlest()~ 
+}
+public var smart_background_decorative_green_subtler.colorset: UIColor {   
+R.color.smart_background_decorative_green_subtler()~ 
+}
+public var smart_background_decorative_green_subtle.colorset: UIColor {   
+R.color.smart_background_decorative_green_subtle()~ 
+}
+public var smart_background_decorative_green_bolder.colorset: UIColor {   
+R.color.smart_background_decorative_green_bolder()~ 
+}
+public var smart_background_decorative_green_alpha.colorset: UIColor {   
+R.color.smart_background_decorative_green_alpha()~ 
+}
+public var smart_background_decorative_green_alpha-bolder.colorset: UIColor {   
+R.color.smart_background_decorative_green_alpha-bolder()~ 
+}
+public var smart_background_decorative_grey_subtlest.colorset: UIColor {   
+R.color.smart_background_decorative_grey_subtlest()~ 
+}
+public var smart_background_decorative_grey_subtler.colorset: UIColor {   
+R.color.smart_background_decorative_grey_subtler()~ 
+}
+public var smart_background_decorative_grey_subtle.colorset: UIColor {   
+R.color.smart_background_decorative_grey_subtle()~ 
+}
+public var smart_background_decorative_grey_bolder.colorset: UIColor {   
+R.color.smart_background_decorative_grey_bolder()~ 
+}
+public var smart_background_decorative_lime_subtlest.colorset: UIColor {   
+R.color.smart_background_decorative_lime_subtlest()~ 
+}
+public var smart_background_decorative_lime_subtler.colorset: UIColor {   
+R.color.smart_background_decorative_lime_subtler()~ 
+}
+public var smart_background_decorative_lime_subtle.colorset: UIColor {   
+R.color.smart_background_decorative_lime_subtle()~ 
+}
+public var smart_background_decorative_lime_bolder.colorset: UIColor {   
+R.color.smart_background_decorative_lime_bolder()~ 
+}
+public var smart_background_decorative_lime_alpha.colorset: UIColor {   
+R.color.smart_background_decorative_lime_alpha()~ 
+}
+public var smart_background_decorative_lime_alpha-bolder.colorset: UIColor {   
+R.color.smart_background_decorative_lime_alpha-bolder()~ 
+}
+public var smart_background_decorative_fuchsia_subtlest.colorset: UIColor {   
+R.color.smart_background_decorative_fuchsia_subtlest()~ 
+}
+public var smart_background_decorative_fuchsia_subtler.colorset: UIColor {   
+R.color.smart_background_decorative_fuchsia_subtler()~ 
+}
+public var smart_background_decorative_fuchsia_subtle.colorset: UIColor {   
+R.color.smart_background_decorative_fuchsia_subtle()~ 
+}
+public var smart_background_decorative_fuchsia_bolder.colorset: UIColor {   
+R.color.smart_background_decorative_fuchsia_bolder()~ 
+}
+public var smart_background_decorative_fuchsia_alpha.colorset: UIColor {   
+R.color.smart_background_decorative_fuchsia_alpha()~ 
+}
+public var smart_background_decorative_fuchsia_alpha-bolder.colorset: UIColor {   
+R.color.smart_background_decorative_fuchsia_alpha-bolder()~ 
+}
+public var smart_background_decorative_orange_subtlest.colorset: UIColor {   
+R.color.smart_background_decorative_orange_subtlest()~ 
+}
+public var smart_background_decorative_orange_subtler.colorset: UIColor {   
+R.color.smart_background_decorative_orange_subtler()~ 
+}
+public var smart_background_decorative_orange_subtle.colorset: UIColor {   
+R.color.smart_background_decorative_orange_subtle()~ 
+}
+public var smart_background_decorative_orange_bolder.colorset: UIColor {   
+R.color.smart_background_decorative_orange_bolder()~ 
+}
+public var smart_background_decorative_orange_alpha.colorset: UIColor {   
+R.color.smart_background_decorative_orange_alpha()~ 
+}
+public var smart_background_decorative_orange_alpha-bolder.colorset: UIColor {   
+R.color.smart_background_decorative_orange_alpha-bolder()~ 
+}
+public var smart_background_decorative_pink_subtlest.colorset: UIColor {   
+R.color.smart_background_decorative_pink_subtlest()~ 
+}
+public var smart_background_decorative_pink_subtler.colorset: UIColor {   
+R.color.smart_background_decorative_pink_subtler()~ 
+}
+public var smart_background_decorative_pink_subtle.colorset: UIColor {   
+R.color.smart_background_decorative_pink_subtle()~ 
+}
+public var smart_background_decorative_pink_bolder.colorset: UIColor {   
+R.color.smart_background_decorative_pink_bolder()~ 
+}
+public var smart_background_decorative_pink_alpha.colorset: UIColor {   
+R.color.smart_background_decorative_pink_alpha()~ 
+}
+public var smart_background_decorative_pink_alpha-bolder.colorset: UIColor {   
+R.color.smart_background_decorative_pink_alpha-bolder()~ 
+}
+public var smart_background_decorative_purple_subtlest.colorset: UIColor {   
+R.color.smart_background_decorative_purple_subtlest()~ 
+}
+public var smart_background_decorative_purple_subtler.colorset: UIColor {   
+R.color.smart_background_decorative_purple_subtler()~ 
+}
+public var smart_background_decorative_purple_subtle.colorset: UIColor {   
+R.color.smart_background_decorative_purple_subtle()~ 
+}
+public var smart_background_decorative_purple_bolder.colorset: UIColor {   
+R.color.smart_background_decorative_purple_bolder()~ 
+}
+public var smart_background_decorative_purple_alpha.colorset: UIColor {   
+R.color.smart_background_decorative_purple_alpha()~ 
+}
+public var smart_background_decorative_purple_alpha-bolder.colorset: UIColor {   
+R.color.smart_background_decorative_purple_alpha-bolder()~ 
+}
+public var smart_background_decorative_red_subtlest.colorset: UIColor {   
+R.color.smart_background_decorative_red_subtlest()~ 
+}
+public var smart_background_decorative_red_subtler.colorset: UIColor {   
+R.color.smart_background_decorative_red_subtler()~ 
+}
+public var smart_background_decorative_red_subtle.colorset: UIColor {   
+R.color.smart_background_decorative_red_subtle()~ 
+}
+public var smart_background_decorative_red_bolder.colorset: UIColor {   
+R.color.smart_background_decorative_red_bolder()~ 
+}
+public var smart_background_decorative_red_alpha.colorset: UIColor {   
+R.color.smart_background_decorative_red_alpha()~ 
+}
+public var smart_background_decorative_red_alpha-bolder.colorset: UIColor {   
+R.color.smart_background_decorative_red_alpha-bolder()~ 
+}
+public var smart_background_decorative_ruby_subtlest.colorset: UIColor {   
+R.color.smart_background_decorative_ruby_subtlest()~ 
+}
+public var smart_background_decorative_ruby_subtler.colorset: UIColor {   
+R.color.smart_background_decorative_ruby_subtler()~ 
+}
+public var smart_background_decorative_ruby_subtle.colorset: UIColor {   
+R.color.smart_background_decorative_ruby_subtle()~ 
+}
+public var smart_background_decorative_ruby_bolder.colorset: UIColor {   
+R.color.smart_background_decorative_ruby_bolder()~ 
+}
+public var smart_background_decorative_ruby_alpha.colorset: UIColor {   
+R.color.smart_background_decorative_ruby_alpha()~ 
+}
+public var smart_background_decorative_ruby_alpha-bolder.colorset: UIColor {   
+R.color.smart_background_decorative_ruby_alpha-bolder()~ 
+}
+public var smart_background_decorative_teal_subtlest.colorset: UIColor {   
+R.color.smart_background_decorative_teal_subtlest()~ 
+}
+public var smart_background_decorative_teal_subtler.colorset: UIColor {   
+R.color.smart_background_decorative_teal_subtler()~ 
+}
+public var smart_background_decorative_teal_subtle.colorset: UIColor {   
+R.color.smart_background_decorative_teal_subtle()~ 
+}
+public var smart_background_decorative_teal_bolder.colorset: UIColor {   
+R.color.smart_background_decorative_teal_bolder()~ 
+}
+public var smart_background_decorative_teal_alpha.colorset: UIColor {   
+R.color.smart_background_decorative_teal_alpha()~ 
+}
+public var smart_background_decorative_teal_alpha-bolder.colorset: UIColor {   
+R.color.smart_background_decorative_teal_alpha-bolder()~ 
+}
+public var smart_background_decorative_yellow_subtlest.colorset: UIColor {   
+R.color.smart_background_decorative_yellow_subtlest()~ 
+}
+public var smart_background_decorative_yellow_subtler.colorset: UIColor {   
+R.color.smart_background_decorative_yellow_subtler()~ 
+}
+public var smart_background_decorative_yellow_subtle.colorset: UIColor {   
+R.color.smart_background_decorative_yellow_subtle()~ 
+}
+public var smart_background_decorative_yellow_bolder.colorset: UIColor {   
+R.color.smart_background_decorative_yellow_bolder()~ 
+}
+public var smart_background_decorative_yellow_alpha.colorset: UIColor {   
+R.color.smart_background_decorative_yellow_alpha()~ 
+}
+public var smart_background_decorative_yellow_alpha-bolder.colorset: UIColor {   
+R.color.smart_background_decorative_yellow_alpha-bolder()~ 
+}
+public var smart_border_brand_subtlest.colorset: UIColor {   
+R.color.smart_border_brand_subtlest()~ 
+}
+public var smart_border_brand_subtler.colorset: UIColor {   
+R.color.smart_border_brand_subtler()~ 
+}
+public var smart_border_brand_subtle.colorset: UIColor {   
+R.color.smart_border_brand_subtle()~ 
+}
+public var smart_border_brand_bold.colorset: UIColor {   
+R.color.smart_border_brand_bold()~ 
+}
+public var smart_border_inputs_default.colorset: UIColor {   
+R.color.smart_border_inputs_default()~ 
+}
+public var smart_border_inputs_selected.colorset: UIColor {   
+R.color.smart_border_inputs_selected()~ 
+}
+public var smart_border_neutral_subtler.colorset: UIColor {   
+R.color.smart_border_neutral_subtler()~ 
+}
+public var smart_border_neutral_subtle.colorset: UIColor {   
+R.color.smart_border_neutral_subtle()~ 
+}
+public var smart_border_neutral_bolder.colorset: UIColor {   
+R.color.smart_border_neutral_bolder()~ 
+}
+public var smart_border_decorative_blue_subtlest.colorset: UIColor {   
+R.color.smart_border_decorative_blue_subtlest()~ 
+}
+public var smart_border_decorative_blue_subtler.colorset: UIColor {   
+R.color.smart_border_decorative_blue_subtler()~ 
+}
+public var smart_border_decorative_blue_subtle.colorset: UIColor {   
+R.color.smart_border_decorative_blue_subtle()~ 
+}
+public var smart_border_decorative_blue_bolder.colorset: UIColor {   
+R.color.smart_border_decorative_blue_bolder()~ 
+}
+public var smart_border_decorative_blue_alpha.colorset: UIColor {   
+R.color.smart_border_decorative_blue_alpha()~ 
+}
+public var smart_border_decorative_fuchsia_subtlest.colorset: UIColor {   
+R.color.smart_border_decorative_fuchsia_subtlest()~ 
+}
+public var smart_border_decorative_fuchsia_subtler.colorset: UIColor {   
+R.color.smart_border_decorative_fuchsia_subtler()~ 
+}
+public var smart_border_decorative_fuchsia_subtle.colorset: UIColor {   
+R.color.smart_border_decorative_fuchsia_subtle()~ 
+}
+public var smart_border_decorative_fuchsia_bolder.colorset: UIColor {   
+R.color.smart_border_decorative_fuchsia_bolder()~ 
+}
+public var smart_border_decorative_fuchsia_alpha.colorset: UIColor {   
+R.color.smart_border_decorative_fuchsia_alpha()~ 
+}
+public var smart_border_decorative_green_subtlest.colorset: UIColor {   
+R.color.smart_border_decorative_green_subtlest()~ 
+}
+public var smart_border_decorative_green_subtler.colorset: UIColor {   
+R.color.smart_border_decorative_green_subtler()~ 
+}
+public var smart_border_decorative_green_subtle.colorset: UIColor {   
+R.color.smart_border_decorative_green_subtle()~ 
+}
+public var smart_border_decorative_green_bolder.colorset: UIColor {   
+R.color.smart_border_decorative_green_bolder()~ 
+}
+public var smart_border_decorative_green_alpha.colorset: UIColor {   
+R.color.smart_border_decorative_green_alpha()~ 
+}
+public var smart_border_decorative_grey_subtlest.colorset: UIColor {   
+R.color.smart_border_decorative_grey_subtlest()~ 
+}
+public var smart_border_decorative_grey_subtler.colorset: UIColor {   
+R.color.smart_border_decorative_grey_subtler()~ 
+}
+public var smart_border_decorative_grey_subtle.colorset: UIColor {   
+R.color.smart_border_decorative_grey_subtle()~ 
+}
+public var smart_border_decorative_grey_bolder.colorset: UIColor {   
+R.color.smart_border_decorative_grey_bolder()~ 
+}
+public var smart_border_decorative_lime_subtlest.colorset: UIColor {   
+R.color.smart_border_decorative_lime_subtlest()~ 
+}
+public var smart_border_decorative_lime_subtler.colorset: UIColor {   
+R.color.smart_border_decorative_lime_subtler()~ 
+}
+public var smart_border_decorative_lime_subtle.colorset: UIColor {   
+R.color.smart_border_decorative_lime_subtle()~ 
+}
+public var smart_border_decorative_lime_regular.colorset: UIColor {   
+R.color.smart_border_decorative_lime_regular()~ 
+}
+public var smart_border_decorative_lime_alpha.colorset: UIColor {   
+R.color.smart_border_decorative_lime_alpha()~ 
+}
+public var smart_border_decorative_orange_subtlest.colorset: UIColor {   
+R.color.smart_border_decorative_orange_subtlest()~ 
+}
+public var smart_border_decorative_orange_subtler.colorset: UIColor {   
+R.color.smart_border_decorative_orange_subtler()~ 
+}
+public var smart_border_decorative_orange_subtle.colorset: UIColor {   
+R.color.smart_border_decorative_orange_subtle()~ 
+}
+public var smart_border_decorative_orange_bolder.colorset: UIColor {   
+R.color.smart_border_decorative_orange_bolder()~ 
+}
+public var smart_border_decorative_orange_alpha.colorset: UIColor {   
+R.color.smart_border_decorative_orange_alpha()~ 
+}
+public var smart_border_decorative_pink_subtlest.colorset: UIColor {   
+R.color.smart_border_decorative_pink_subtlest()~ 
+}
+public var smart_border_decorative_pink_subtler.colorset: UIColor {   
+R.color.smart_border_decorative_pink_subtler()~ 
+}
+public var smart_border_decorative_pink_subtle.colorset: UIColor {   
+R.color.smart_border_decorative_pink_subtle()~ 
+}
+public var smart_border_decorative_pink_bolder.colorset: UIColor {   
+R.color.smart_border_decorative_pink_bolder()~ 
+}
+public var smart_border_decorative_pink_alpha.colorset: UIColor {   
+R.color.smart_border_decorative_pink_alpha()~ 
+}
+public var smart_border_decorative_purple_subtlest.colorset: UIColor {   
+R.color.smart_border_decorative_purple_subtlest()~ 
+}
+public var smart_border_decorative_purple_subtler.colorset: UIColor {   
+R.color.smart_border_decorative_purple_subtler()~ 
+}
+public var smart_border_decorative_purple_subtle.colorset: UIColor {   
+R.color.smart_border_decorative_purple_subtle()~ 
+}
+public var smart_border_decorative_purple_bolder.colorset: UIColor {   
+R.color.smart_border_decorative_purple_bolder()~ 
+}
+public var smart_border_decorative_purple_alpha.colorset: UIColor {   
+R.color.smart_border_decorative_purple_alpha()~ 
+}
+public var smart_border_decorative_red_subtlest.colorset: UIColor {   
+R.color.smart_border_decorative_red_subtlest()~ 
+}
+public var smart_border_decorative_red_subtler.colorset: UIColor {   
+R.color.smart_border_decorative_red_subtler()~ 
+}
+public var smart_border_decorative_red_subtle.colorset: UIColor {   
+R.color.smart_border_decorative_red_subtle()~ 
+}
+public var smart_border_decorative_red_bolder.colorset: UIColor {   
+R.color.smart_border_decorative_red_bolder()~ 
+}
+public var smart_border_decorative_red_alpha.colorset: UIColor {   
+R.color.smart_border_decorative_red_alpha()~ 
+}
+public var smart_border_decorative_ruby_subtlest.colorset: UIColor {   
+R.color.smart_border_decorative_ruby_subtlest()~ 
+}
+public var smart_border_decorative_ruby_subtler.colorset: UIColor {   
+R.color.smart_border_decorative_ruby_subtler()~ 
+}
+public var smart_border_decorative_ruby_subtle.colorset: UIColor {   
+R.color.smart_border_decorative_ruby_subtle()~ 
+}
+public var smart_border_decorative_ruby_bolder.colorset: UIColor {   
+R.color.smart_border_decorative_ruby_bolder()~ 
+}
+public var smart_border_decorative_ruby_alpha.colorset: UIColor {   
+R.color.smart_border_decorative_ruby_alpha()~ 
+}
+public var smart_border_decorative_teal_subtlest.colorset: UIColor {   
+R.color.smart_border_decorative_teal_subtlest()~ 
+}
+public var smart_border_decorative_teal_subtler.colorset: UIColor {   
+R.color.smart_border_decorative_teal_subtler()~ 
+}
+public var smart_border_decorative_teal_subtle.colorset: UIColor {   
+R.color.smart_border_decorative_teal_subtle()~ 
+}
+public var smart_border_decorative_teal_bolder.colorset: UIColor {   
+R.color.smart_border_decorative_teal_bolder()~ 
+}
+public var smart_border_decorative_teal_alpha.colorset: UIColor {   
+R.color.smart_border_decorative_teal_alpha()~ 
+}
+public var smart_border_decorative_yellow_subtlest.colorset: UIColor {   
+R.color.smart_border_decorative_yellow_subtlest()~ 
+}
+public var smart_border_decorative_yellow_subtler.colorset: UIColor {   
+R.color.smart_border_decorative_yellow_subtler()~ 
+}
+public var smart_border_decorative_yellow_subtle.colorset: UIColor {   
+R.color.smart_border_decorative_yellow_subtle()~ 
+}
+public var smart_border_decorative_yellow_bolder.colorset: UIColor {   
+R.color.smart_border_decorative_yellow_bolder()~ 
+}
+public var smart_border_decorative_yellow_alpha.colorset: UIColor {   
+R.color.smart_border_decorative_yellow_alpha()~ 
+}
+public var smart_text_main.colorset: UIColor {   
+R.color.smart_text_main()~ 
+}
+public var smart_text_subtle.colorset: UIColor {   
+R.color.smart_text_subtle()~ 
+}
+public var smart_text_subtler.colorset: UIColor {   
+R.color.smart_text_subtler()~ 
+}
+public var smart_text_subtlest.colorset: UIColor {   
+R.color.smart_text_subtlest()~ 
+}
+public var smart_text_disabled.colorset: UIColor {   
+R.color.smart_text_disabled()~ 
+}
+public var smart_text_on-bold.colorset: UIColor {   
+R.color.smart_text_on-bold()~ 
+}
+public var smart_text_danger.colorset: UIColor {   
+R.color.smart_text_danger()~ 
+}
+public var smart_text_link.colorset: UIColor {   
+R.color.smart_text_link()~ 
+}
+public var smart_text_brand.colorset: UIColor {   
+R.color.smart_text_brand()~ 
+}
+public var smart_text_on-brand.colorset: UIColor {   
+R.color.smart_text_on-brand()~ 
+}
+public var smart_text_on-primary.colorset: UIColor {   
+R.color.smart_text_on-primary()~ 
+}
+public var smart_text_ghost.colorset: UIColor {   
+R.color.smart_text_ghost()~ 
+}
+public var smart_text_information_warning.colorset: UIColor {   
+R.color.smart_text_information_warning()~ 
+}
+public var smart_text_information_caution.colorset: UIColor {   
+R.color.smart_text_information_caution()~ 
+}
+public var smart_text_information_success.colorset: UIColor {   
+R.color.smart_text_information_success()~ 
+}
+public var smart_text_information_regular.colorset: UIColor {   
+R.color.smart_text_information_regular()~ 
+}
+public var smart_text_information_subtle.colorset: UIColor {   
+R.color.smart_text_information_subtle()~ 
+}
+public var smart_text_decorative_blue_regular.colorset: UIColor {   
+R.color.smart_text_decorative_blue_regular()~ 
+}
+public var smart_text_decorative_blue_bolder.colorset: UIColor {   
+R.color.smart_text_decorative_blue_bolder()~ 
+}
+public var smart_text_decorative_blue_on-bold.colorset: UIColor {   
+R.color.smart_text_decorative_blue_on-bold()~ 
+}
+public var smart_text_decorative_fuchsia_regular.colorset: UIColor {   
+R.color.smart_text_decorative_fuchsia_regular()~ 
+}
+public var smart_text_decorative_fuchsia_bolder.colorset: UIColor {   
+R.color.smart_text_decorative_fuchsia_bolder()~ 
+}
+public var smart_text_decorative_fuchsia_on-bold.colorset: UIColor {   
+R.color.smart_text_decorative_fuchsia_on-bold()~ 
+}
+public var smart_text_decorative_green_regular.colorset: UIColor {   
+R.color.smart_text_decorative_green_regular()~ 
+}
+public var smart_text_decorative_green_bolder.colorset: UIColor {   
+R.color.smart_text_decorative_green_bolder()~ 
+}
+public var smart_text_decorative_green_on-bold.colorset: UIColor {   
+R.color.smart_text_decorative_green_on-bold()~ 
+}
+public var smart_text_decorative_lime_regular.colorset: UIColor {   
+R.color.smart_text_decorative_lime_regular()~ 
+}
+public var smart_text_decorative_lime_bolder.colorset: UIColor {   
+R.color.smart_text_decorative_lime_bolder()~ 
+}
+public var smart_text_decorative_lime_on-bold.colorset: UIColor {   
+R.color.smart_text_decorative_lime_on-bold()~ 
+}
+public var smart_text_decorative_magenta_regular.colorset: UIColor {   
+R.color.smart_text_decorative_magenta_regular()~ 
+}
+public var smart_text_decorative_magenta_bolder.colorset: UIColor {   
+R.color.smart_text_decorative_magenta_bolder()~ 
+}
+public var smart_text_decorative_magenta_on-bold.colorset: UIColor {   
+R.color.smart_text_decorative_magenta_on-bold()~ 
+}
+public var smart_text_decorative_orange_regular.colorset: UIColor {   
+R.color.smart_text_decorative_orange_regular()~ 
+}
+public var smart_text_decorative_orange_bolder.colorset: UIColor {   
+R.color.smart_text_decorative_orange_bolder()~ 
+}
+public var smart_text_decorative_orange_on-bold.colorset: UIColor {   
+R.color.smart_text_decorative_orange_on-bold()~ 
+}
+public var smart_text_decorative_pink_regular.colorset: UIColor {   
+R.color.smart_text_decorative_pink_regular()~ 
+}
+public var smart_text_decorative_pink_bolder.colorset: UIColor {   
+R.color.smart_text_decorative_pink_bolder()~ 
+}
+public var smart_text_decorative_pink_on-bold.colorset: UIColor {   
+R.color.smart_text_decorative_pink_on-bold()~ 
+}
+public var smart_text_decorative_purple_regular.colorset: UIColor {   
+R.color.smart_text_decorative_purple_regular()~ 
+}
+public var smart_text_decorative_purple_bolder.colorset: UIColor {   
+R.color.smart_text_decorative_purple_bolder()~ 
+}
+public var smart_text_decorative_purple_on-bold.colorset: UIColor {   
+R.color.smart_text_decorative_purple_on-bold()~ 
+}
+public var smart_text_decorative_red_regular.colorset: UIColor {   
+R.color.smart_text_decorative_red_regular()~ 
+}
+public var smart_text_decorative_red_bolder.colorset: UIColor {   
+R.color.smart_text_decorative_red_bolder()~ 
+}
+public var smart_text_decorative_red_on-bold.colorset: UIColor {   
+R.color.smart_text_decorative_red_on-bold()~ 
+}
+public var smart_text_decorative_ruby_regular.colorset: UIColor {   
+R.color.smart_text_decorative_ruby_regular()~ 
+}
+public var smart_text_decorative_ruby_bolder.colorset: UIColor {   
+R.color.smart_text_decorative_ruby_bolder()~ 
+}
+public var smart_text_decorative_ruby_on-bold.colorset: UIColor {   
+R.color.smart_text_decorative_ruby_on-bold()~ 
+}
+public var smart_text_decorative_teal_regular.colorset: UIColor {   
+R.color.smart_text_decorative_teal_regular()~ 
+}
+public var smart_text_decorative_teal_bolder.colorset: UIColor {   
+R.color.smart_text_decorative_teal_bolder()~ 
+}
+public var smart_text_decorative_teal_on-bold.colorset: UIColor {   
+R.color.smart_text_decorative_teal_on-bold()~ 
+}
+public var smart_text_decorative_yellow_regular.colorset: UIColor {   
+R.color.smart_text_decorative_yellow_regular()~ 
+}
+public var smart_text_decorative_yellow_bolder.colorset: UIColor {   
+R.color.smart_text_decorative_yellow_bolder()~ 
+}
+public var smart_text_decorative_yellow_on-bold.colorset: UIColor {   
+R.color.smart_text_decorative_yellow_on-bold()~ 
+}
+public var smart_icon_subtle.colorset: UIColor {   
+R.color.smart_icon_subtle()~ 
+}
+public var smart_icon_subtler.colorset: UIColor {   
+R.color.smart_icon_subtler()~ 
+}
+public var smart_icon_subtlest.colorset: UIColor {   
+R.color.smart_icon_subtlest()~ 
+}
+public var smart_icon_bold.colorset: UIColor {   
+R.color.smart_icon_bold()~ 
+}
+public var smart_icon_main.colorset: UIColor {   
+R.color.smart_icon_main()~ 
+}
+public var smart_icon_on-brand.colorset: UIColor {   
+R.color.smart_icon_on-brand()~ 
+}
+public var smart_icon_on-bold.colorset: UIColor {   
+R.color.smart_icon_on-bold()~ 
+}
+public var smart_icon_disabled.colorset: UIColor {   
+R.color.smart_icon_disabled()~ 
+}
+public var smart_icon_brand.colorset: UIColor {   
+R.color.smart_icon_brand()~ 
+}
+public var smart_icon_information_warning.colorset: UIColor {   
+R.color.smart_icon_information_warning()~ 
+}
+public var smart_icon_information_caution.colorset: UIColor {   
+R.color.smart_icon_information_caution()~ 
+}
+public var smart_icon_information_success.colorset: UIColor {   
+R.color.smart_icon_information_success()~ 
+}
+public var smart_icon_information_regular.colorset: UIColor {   
+R.color.smart_icon_information_regular()~ 
+}
+public var smart_icon_information_subtle.colorset: UIColor {   
+R.color.smart_icon_information_subtle()~ 
+}
+public var smart_icon_decorative_blue_subtle.colorset: UIColor {   
+R.color.smart_icon_decorative_blue_subtle()~ 
+}
+public var smart_icon_decorative_blue_bold.colorset: UIColor {   
+R.color.smart_icon_decorative_blue_bold()~ 
+}
+public var smart_icon_decorative_fuchsia_subtle.colorset: UIColor {   
+R.color.smart_icon_decorative_fuchsia_subtle()~ 
+}
+public var smart_icon_decorative_fuchsia_bold.colorset: UIColor {   
+R.color.smart_icon_decorative_fuchsia_bold()~ 
+}
+public var smart_icon_decorative_green_subtle.colorset: UIColor {   
+R.color.smart_icon_decorative_green_subtle()~ 
+}
+public var smart_icon_decorative_green_bold.colorset: UIColor {   
+R.color.smart_icon_decorative_green_bold()~ 
+}
+public var smart_icon_decorative_lime_subtle.colorset: UIColor {   
+R.color.smart_icon_decorative_lime_subtle()~ 
+}
+public var smart_icon_decorative_lime_bold.colorset: UIColor {   
+R.color.smart_icon_decorative_lime_bold()~ 
+}
+public var smart_icon_decorative_magenta_subtle.colorset: UIColor {   
+R.color.smart_icon_decorative_magenta_subtle()~ 
+}
+public var smart_icon_decorative_magenta_bold.colorset: UIColor {   
+R.color.smart_icon_decorative_magenta_bold()~ 
+}
+public var smart_icon_decorative_orange_subtle.colorset: UIColor {   
+R.color.smart_icon_decorative_orange_subtle()~ 
+}
+public var smart_icon_decorative_orange_bold.colorset: UIColor {   
+R.color.smart_icon_decorative_orange_bold()~ 
+}
+public var smart_icon_decorative_pink_subtle.colorset: UIColor {   
+R.color.smart_icon_decorative_pink_subtle()~ 
+}
+public var smart_icon_decorative_pink_bold.colorset: UIColor {   
+R.color.smart_icon_decorative_pink_bold()~ 
+}
+public var smart_icon_decorative_purple_subtle.colorset: UIColor {   
+R.color.smart_icon_decorative_purple_subtle()~ 
+}
+public var smart_icon_decorative_purple_bold.colorset: UIColor {   
+R.color.smart_icon_decorative_purple_bold()~ 
+}
+public var smart_icon_decorative_red_bold.colorset: UIColor {   
+R.color.smart_icon_decorative_red_bold()~ 
+}
+public var smart_icon_decorative_red_subtle.colorset: UIColor {   
+R.color.smart_icon_decorative_red_subtle()~ 
+}
+public var smart_icon_decorative_ruby_subtle.colorset: UIColor {   
+R.color.smart_icon_decorative_ruby_subtle()~ 
+}
+public var smart_icon_decorative_ruby_bold.colorset: UIColor {   
+R.color.smart_icon_decorative_ruby_bold()~ 
+}
+public var smart_icon_decorative_sapphire_subtle.colorset: UIColor {   
+R.color.smart_icon_decorative_sapphire_subtle()~ 
+}
+public var smart_icon_decorative_sapphire_bold.colorset: UIColor {   
+R.color.smart_icon_decorative_sapphire_bold()~ 
+}
+public var smart_icon_decorative_teal_subtle.colorset: UIColor {   
+R.color.smart_icon_decorative_teal_subtle()~ 
+}
+public var smart_icon_decorative_teal_bold.colorset: UIColor {   
+R.color.smart_icon_decorative_teal_bold()~ 
+}
+public var smart_icon_decorative_yellow_subtle.colorset: UIColor {   
+R.color.smart_icon_decorative_yellow_subtle()~ 
+}
+public var smart_icon_decorative_yellow_bold.colorset: UIColor {   
+R.color.smart_icon_decorative_yellow_bold()~ 
+}
+public var smart_surface_base.colorset: UIColor {   
+R.color.smart_surface_base()~ 
+}
+public var smart_surface_groupedbase.colorset: UIColor {   
+R.color.smart_surface_groupedbase()~ 
+}
+public var smart_surface_level1.colorset: UIColor {   
+R.color.smart_surface_level1()~ 
+}
+public var smart_surface_level2.colorset: UIColor {   
+R.color.smart_surface_level2()~ 
+}
+public var smart_surface_level3.colorset: UIColor {   
+R.color.smart_surface_level3()~ 
+}
+public var smart_surface_level4.colorset: UIColor {   
+R.color.smart_surface_level4()~ 
+}
