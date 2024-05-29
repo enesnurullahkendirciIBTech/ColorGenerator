@@ -23,7 +23,7 @@ class ColorModel:
     def __createPath(self, filePath, colorName, colorPath, assetName):
         if colorPath.nextPath is None:
             assetName = self.theme['prefix'] + assetName + colorPath.name + ".colorset"
-            filePath = filePath + "/" + assetName + colorPath.name + ".colorset"
+            filePath = filePath + "/" + assetName
         else:
             filePath = filePath + "/" + colorPath.name
             assetName += colorPath.name + "_"
