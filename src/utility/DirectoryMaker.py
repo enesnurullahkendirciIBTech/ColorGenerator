@@ -3,7 +3,7 @@ import json
 
 from src.data import ColorPathNode
 from src.utility.XCAssetsMaker import XCAssetsMaker
-
+from src.utility.CamelCaseConvertor import CamelCaseConverter
 
 class DirectoryMaker:
     path = "/Users/volkan/Desktop/Test/"
@@ -22,9 +22,11 @@ class DirectoryMaker:
             self.__addInfoJson(self.__getRootPath())
 
     def __createPath(self, filePath, colorName, colorPathNode, assetName):
+        camelCaseAssetName = None
         if colorPathNode.nextPath is None:
-            assetName = self.theme['prefix'] + assetName + colorPathNode.name + ".colorset"
-            filePath = filePath + "/" + assetName
+            assetName = self.theme['prefix'] + assetName + colorPathNode.name
+            camelCaseAssetName = CamelCaseConverter.toCamelCase(assetName)
+            filePath = filePath + "/" + camelCaseAssetName + ".colorset"
         else:
             filePath = filePath + "/" + colorPathNode.name
             assetName += colorPathNode.name + "_"
@@ -58,14 +60,18 @@ class DirectoryMaker:
     def __generateColorSwiftFile(self, assetName):
         if self.isDark:
             colorName = assetName
-            if colorName.startswith("daf_"):
-                colorName = colorName[len("daf_"):]
+            prefix = self.theme["prefix"]
+            if colorName.startswith(prefix):
+                colorName = colorName[len(prefix):]
                 if colorName.endswith(".colorset"):
                     colorName = colorName[:-len(".colorset")]
 
             if assetName.endswith(".colorset"):
                 assetName = assetName[:-len(".colorset")]
-            colorGenerated = f"public var {colorName}: UIColor {{   \nR.color.{assetName}()~ \n}}"
+
+            colorName = CamelCaseConverter.toCamelCase(colorName)
+            assetName = CamelCaseConverter.toCamelCase(assetName)
+            colorGenerated = f"public var {colorName}: UIColor {{   \n    R.color.{assetName}()~ \n}}\n"
 
             filePath = self.__getRootPath() + "/" + self.theme['name']
             with open(filePath, "a") as file:

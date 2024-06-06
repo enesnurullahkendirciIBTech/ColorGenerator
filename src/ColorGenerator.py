@@ -3,6 +3,7 @@ import copy
 
 from src.data.ColorPathNode import ColorPathNode
 from src.utility.DirectoryMaker import DirectoryMaker
+from src.utility.ThemeProtocolMaker import ThemeProtocolMaker
 
 
 class ColorGenerator:
@@ -11,6 +12,13 @@ class ColorGenerator:
         with open('resources/BaseColors.json') as baseColorsData:
             baseColors = json.load(baseColorsData)
             themes = baseColors["baseColors"]
+
+            with open('resources/Tokens.json') as model:
+                tokens = json.load(model)
+                lightTokens = tokens['light']
+                for index, (key, subdict) in enumerate(lightTokens.items()):
+                    colorPathNode = ColorPathNode(key)
+                    self.__generateThemeProtocol(subdict, colorPathNode)
 
             for theme in themes:
                 themeInformation = theme['theme']
@@ -26,6 +34,8 @@ class ColorGenerator:
                     for index, (key, subdict) in enumerate(darkTokens.items()):
                         colorPathNode = ColorPathNode(key)
                         self.__find(subdict, colorPathNode, basedColors, themeInformation, True)
+
+
 
     def __find(self, subdict, colorPath, basedColors, theme, isDark):
         print(subdict)
@@ -50,3 +60,13 @@ class ColorGenerator:
         color = color['$value']
         directoryMaker = DirectoryMaker(theme, isDark)
         directoryMaker.createAssets(color, colorPathNode)
+
+    def __generateThemeProtocol(self, subdict, colorPath):
+        if '$type' in subdict and subdict['$type'] == "color":
+            ThemeProtocolMaker().generateColorProtocol(colorPath)
+        else:
+            for childKey, childs in subdict.items():
+                colorPathCopy = copy.deepcopy(colorPath)
+                childPath = ColorPathNode(childKey)
+                colorPathCopy.setNextPath(childPath)
+                self.__generateThemeProtocol(childs, colorPathCopy)

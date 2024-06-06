@@ -2,7 +2,7 @@
   "baseColors": [
     {
       "theme": {
-        "name": "Mass",
+        "name": "MassTokens",
         "prefix": ""
       },
       "colors": {
@@ -936,7 +936,7 @@
     },
     {
       "theme": {
-        "name": "Smart",
+        "name": "SmartTokens",
         "prefix": "smart_"
       },
       "colors": {
@@ -1870,7 +1870,7 @@
     },
     {
       "theme": {
-        "name": "Daf",
+        "name": "DafTokens",
         "prefix": "daf_"
       },
       "colors": {

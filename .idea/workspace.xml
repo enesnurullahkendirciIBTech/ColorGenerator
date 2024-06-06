@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54dc2e46-c659-4ecb-92fe-96c7042e1567" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ColorGenerator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/BaseColors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/ExampleColor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/Tokens.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColorGenerator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/ColorPathNode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/RGBModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utility/DirectoryMaker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utility/XCAssetsMaker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utility/CamelCaseConvertor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utility/ThemeProtocolMaker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/BaseColors.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/BaseColors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColorGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColorGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/DirectoryMaker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/DirectoryMaker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +39,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.ColorGenerator.executor": "Run",
+    "Python.DirectoryMaker.executor": "Run",
+    "Python.ThemeProtocolMaker.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
@@ -69,16 +63,5 @@
       <updated>1717150815721</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/ColorGenerator.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
